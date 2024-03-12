@@ -2,6 +2,7 @@
 
 
 
+
 .section {
     padding: 70px 0;
     position: relative;
@@ -439,12 +440,7 @@
 .Tokenomics {
     margin: 70px 0;
     text-align: center;
-
-    h1 {
-        font-weight: bold;
-        color: white !important;
-        font-size: 60px;
-    }
+    // font-size: 40px;
 
     button {
 
@@ -455,50 +451,154 @@
     }
 }
 
-// Roadmap.scss
+// Define default styles for h1 and h3
+.brand {
+    h1 {
+        font-size: 2rem; // Default font size for h1
 
-// .roadmap {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//   }
+    }
 
-//   .roadmap-item {
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     margin-bottom: 40px; /* Adjust spacing between items */
-//   }
+    h3 {
+        font-size: 1rem; // Default font size for h3
+    }
+}
 
-//   .circle {
-//     width: 20px;
-//     height: 20px;
-//     border-radius: 50%;
-//     background-color: #007bff;
-//     margin-bottom: 10px;
-//   }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
 
-//   .line {
-//     height: 50px; /* Adjust line height */
-//     width: 2px;
-//     background-color: #007bff;
-//     margin-bottom: 10px; /* Adjust spacing between circle and line */
-//   }
+    .aboutUs {
 
-//   .content {
-//     text-align: center;
-//   }
+        h2,
+        h3,
+        h4 {
+            font-size: 23px;
+        }
+    }
+
+    .brand {
+        h1 {
+            font-size: 1.2rem; // Font size for h1 on small screens
+        }
+
+        h3 {
+            font-size: 1rem; // Font size for h3 on small screens
+        }
+    }
+
+    .Tokenomics {
+
+        .h1 {
+            font-weight: bold;
+            color: white !important;
+            font-size: 20x !important;
+        }
+
+        p {
+            font-weight: bold;
+            color: white !important;
+            font-size: 10px;
+        }
+
+        #addr {
+            font-size: 20px !important;
+            color: white;
+        }
+
+        #cont {
+            font-size: 15px;
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .brand {
+        h1 {
+            font-size: 2rem; // Font size for h1 on medium screens
+        }
+
+        h3 {
+            font-size: 1.4rem; // Font size for h3 on medium screens
+        }
+    }
+
+    .Tokenomics {
+
+        .h1 {
+            font-weight: bold;
+            color: white !important;
+            font-size: 30px
+        }
+
+        #addr {
+            font-size: 20px !important;
+            color: white;
+        }
+
+        #cont {
+            font-size: 15px;
+        }
+
+        p {
+            font-weight: bold;
+            color: white !important;
+            font-size: 15px;
+        }
+    }
 
 
-// @keyframes bounce {
-//     0% {
-//         transform: translateY(0);
-//     }
+}
 
-//     100% {
-//         transform: translateY(-10px);
-//     }
-// }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .brand {
+        h1 {
+            font-size: 3.5rem; // Font size for h1 on large screens
+        }
+
+        h3 {
+            font-size: 1.6rem; // Font size for h3 on large screens
+        }
+    }
+
+    .Tokenomics {
+        .h1 {
+            font-weight: bold;
+            color: white !important;
+            font-size: 70px !important;
+        }
+
+        p {
+            font-weight: bold;
+            color: white !important;
+            font-size: 20px;
+        }
+
+        #addr {
+            color: white;
+            font-size: 40px !important;
+        }
+
+        #cont {
+            font-size: 25px;
+        }
+
+
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .Tokenomics {
+        p {
+            font-weight: 500;
+            color: white !important;
+            font-size: 30px;
+        }
+    }
+}
 
 
 .roadmap h1 {

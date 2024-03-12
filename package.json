@@ -42,10 +42,10 @@
     "nouislider": "15.4.0",
     "perfect-scrollbar": "1.5.5",
     "react": ">=16.8.0",
-    "react-chartjs-2": "2.11.2",
     "react-datetime": "3.2.0",
     "react-dom": ">=16.8.0",
     "react-fast-marquee": "^1.6.4",
+    "react-hot-toast": "^2.4.1",
     "react-router-dom": "6.11.1",
     "react-scripts": "5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
@@ -58,8 +58,7 @@
     "react-dom": ">=16.8.0"
   },
   "optionalDependencies": {
-    "jquery": "3.7.0",
-    "typescript": "5.0.4"
+    "jquery": "3.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
