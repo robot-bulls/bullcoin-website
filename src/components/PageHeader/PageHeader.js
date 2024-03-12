@@ -19,12 +19,12 @@ export default function PageHeader() {
 
         <div className="brand">
           <h1 className="h1-seo">BullCoin: Decentralize trading robots</h1>
-          <h3 className="d-none d-sm-block">
+          <h3 >
             Transforming Meme Communities into Marketing Titans! Create, Sell, and Dominate with Unique NFTs on Our Exclusive Marketplace – Your Gateway to Fun, Engagement, and Profit!
           </h3>
         </div>
 
-        <div className="ethImg">
+        <div className="ethImg d-none d-lg-block d-xl-block">
           <img src={etherum} alt="" />
         </div>
 
