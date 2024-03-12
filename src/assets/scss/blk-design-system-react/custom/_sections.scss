@@ -490,7 +490,7 @@
         .h1 {
             font-weight: bold;
             color: white !important;
-            font-size: 20x !important;
+            font-size: 25px !important;
         }
 
         p {
@@ -507,6 +507,13 @@
         #cont {
             font-size: 15px;
         }
+    }
+
+    .roadmap h1 {
+        font-weight: bold;
+        color: white !important;
+        font-size: 25px !important;
+        text-align: center;
     }
 }
 
@@ -547,6 +554,13 @@
         }
     }
 
+    .roadmap h1 {
+        font-weight: bold;
+        color: white !important;
+        font-size: 30px !important;
+        text-align: center;
+    }
+
 
 }
 
@@ -567,7 +581,7 @@
         .h1 {
             font-weight: bold;
             color: white !important;
-            font-size: 70px !important;
+            font-size: 60px !important;
         }
 
         p {
@@ -584,8 +598,13 @@
         #cont {
             font-size: 25px;
         }
+    }
 
-
+    .roadmap h1 {
+        font-weight: bold;
+        color: white !important;
+        font-size: 60px !important;
+        text-align: center;
     }
 }
 
